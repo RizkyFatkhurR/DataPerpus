@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    background-color: #c1a57b; 
+  }
+  
+  .latar {
+    width: 95%;
+    height: 100%;
+    background-color: #c1a57b; 
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+    height: 80px;
+  }
+  
+  .header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: white;
+  }
+  
+  .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .list li {
+    list-style-type: none;
+    padding: 15px;
+  }
+  
+  .list li:hover {
+    opacity: 0.6;
+  }
+  
+  .main {
+    margin-top: 200px;
+    margin-left: 100px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .main h2 {
+    font-size: 40px;
+    font-weight: 40;
+    font-style: italic;
+  }
+  
+  .main h1 {
+    font-size: 75px;
+  }
+  
+  .my-table {
+    max-width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .my-table th, .my-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .my-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .my-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .my-table tr:hover {
+    background-color: #e9e9e9;
+  }
+  
